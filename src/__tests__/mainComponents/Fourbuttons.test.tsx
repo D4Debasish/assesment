@@ -1,4 +1,3 @@
-// src/components/mainComponents/__tests__/Fourbuttons.test.tsx
 import React from "react";
 import { cleanup, render } from "@testing-library/react";
 import Fourbuttons from "@/components/mainComponents/Fourbuttons";

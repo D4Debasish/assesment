@@ -1,0 +1,35 @@
+{
+  "avatars": [
+    { "id": 1, "name": "Akshay", "image": "/assets/dp1.jpg" },
+    { "id": 2, "name": "Bipin", "image": "/assets/dp2.jpg" },
+    { "id": 3, "name": "Om", "image": "/assets/dp3.jpg" },
+    { "id": 4, "name": "Gaurav", "image": "/assets/dp4.jpeg" },
+    { "id": 5, "name": "Jatin", "image": "/assets/dp1.jpg" }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "All"
+    },
+    {
+      "id": 2,
+      "name": "Tshirts"
+    },
+    { "id": 3, "name": "Joggers" },
+    { "id": 4, "name": "Shirts" },
+    { "id": 5, "name": "Pants" },
+    { "id": 6, "name": "Cargo" },
+    { "id": 7, "name": "Jackets" }
+  ],
+  "images": [
+    { "id": 1, "src": "/assets/img1.webp" },
+    { "id": 2, "src": "/assets/img2.webp" },
+    { "id": 3, "src": "/assets/img3.webp" },
+    { "id": 4, "src": "/assets/img4.webp" },
+    { "id": 5, "src": "/assets/img1.webp" },
+    { "id": 6, "src": "/assets/img6.webp" },
+    { "id": 7, "src": "/assets/img7.webp" },
+    { "id": 8, "src": "/assets/img8.webp" },
+    { "id": 9, "src": "/assets/img9.webp" }
+  ]
+}

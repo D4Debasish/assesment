@@ -13,7 +13,7 @@ interface ImageProps {
 
 const ImageList: React.FC<ImageProps> = ({ images }) => {
   return (
-    <div className="grid grid-cols-3 gap-1 mb-10 md:mx-10 ">
+    <div className="grid grid-cols-3 gap-1 mb-10 md:mx-28 xl:mx-10 md:grid md:grid-cols-5 md:gap-2 xl:grid xl:grid-cols-3  ">
       {images.map((img) => (
         <div key={img.id} className="  flex items-center justify-center">
           <Image

@@ -9,7 +9,7 @@ import ImageList from "@/components/mainComponents/ImageList";
 
 export default function Home() {
   return (
-    <main className="mt-10 xl:mx-[430px] md:mx-[100px] xl:overflow-visible flex flex-col gap-4 overflow-hidden ">
+    <main className="mt-10 xl:mx-[430px] xl:overflow-visible flex flex-col gap-4 overflow-hidden ">
       <Avatars avatars={data.avatars} />
       <hr className="text-md text-white" />
       {/* Buttons.................................... */}
@@ -17,7 +17,9 @@ export default function Home() {
       {/* categories......................................... */}
       <Categories categories={data.categories} />
       {/* Images.................................. */}
-      <ImageList images={data.images} />
+      <div className="md:mx-[60px] xl:mx-0 mx-0">
+        <ImageList images={data.images} />
+      </div>
     </main>
   );
 }

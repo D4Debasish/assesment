@@ -1,4 +1,3 @@
-// src/components/mainComponents/__tests__/ImageList.test.tsx
 import React from "react";
 import { cleanup, render } from "@testing-library/react";
 import ImageList from "@/components/mainComponents/ImageList";

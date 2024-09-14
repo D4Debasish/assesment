@@ -1,4 +1,3 @@
-// src/components/mainComponents/__tests__/Categories.test.tsx
 import React from "react";
 import { render, fireEvent, cleanup, screen } from "@testing-library/react";
 import Categories from "@/components/mainComponents/Categories";
